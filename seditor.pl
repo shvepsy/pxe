@@ -3,8 +3,6 @@
 use WWW::Mechanize;
 use JSON;
 use JSON::Parse;
-#use POSIX qw(strftime);
-#my $now = localtime;
 
 my $m = WWW::Mechanize->new( agent => 'PostBot/0.1');
 
